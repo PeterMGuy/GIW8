@@ -1,0 +1,44 @@
+section {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); */
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    grid-column-gap: 1.5em;
+    grid-row-gap: 2em;
+    margin: 5em;
+    line-height: 1.6;
+}
+
+div {
+    border: 3px solid black;
+    background: white;
+}
+
+section p {
+    padding: 2em;
+}
+img {
+    width:  15em;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 2em;
+
+}
+
+button {
+    cursor: pointer;
+    padding: .5em;
+    font-size: 1rem;
+    margin: 1em;
+    border-radius: 2em;
+    border: 2px solid black;
+}
+
+button:hover {
+    background: purple;
+    color: white;
+}

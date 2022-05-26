@@ -1,0 +1,15 @@
+.checkerboard {
+    display: flex;
+}
+
+.white {
+    width: 100px;
+    height: 100px;
+    background: white;
+}
+
+.black {
+    width: 100px;
+    height: 100px;
+    background: black;
+}
